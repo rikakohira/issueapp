@@ -21,3 +21,9 @@
 - Spring Boot 2.7.4
 - IntelliJ IDEA
 - heroku
+
+# 使い方
+■ **イシューの新規作成ページ**<br>
+フォームを入力して`作成`をクリックすると、トップページに遷移します。
+
+[![Image from Gyazo](https://i.gyazo.com/ef6ec762ec193b5d5e67bf7cb5c03830.png)](https://gyazo.com/ef6ec762ec193b5d5e67bf7cb5c03830)

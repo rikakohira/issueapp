@@ -12,14 +12,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class IssueController {
     private final IssueRepository issueRepository;
 
-    //一覧機能
-    @GetMapping
-    public String showIssueList(Model model){
-        var issueList = issueRepository.findAll();
-        model.addAttribute("issueList", issueList);
-        return "index";
-    }
-
     //投稿機能
     @GetMapping("/issueForm")
     //IssueForm()メソッド
@@ -32,4 +24,13 @@ public class IssueController {
         issueRepository.insert(form.getTitle(), form.getContent(), form.getPeriod(), form.getImportance());
         return "redirect:/";
     }
+
+    //一覧機能
+    @GetMapping
+    public String showIssueList(Model model){
+        var issueList = issueRepository.findAll();
+        model.addAttribute("issueList", issueList);
+        return "index";
+    }
 }
+

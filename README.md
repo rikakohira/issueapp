@@ -23,11 +23,11 @@ https://java-issueapp1997.herokuapp.com/
 - heroku
 
 # 使い方
-■ **トップページ**
+■ **トップページ**<br>
 登録済みのイシューを一覧表示します。<br>
 `新規作成`をクリックすると、イシューの新規作成ページに遷移します。
 
-[![Image from Gyazo](https://i.gyazo.com/c0f591c4d7952ba2f1a6524435a8056e.jpg)](https://gyazo.com/c0f591c4d7952ba2f1a6524435a8056e)
+[![Image from Gyazo](https://i.gyazo.com/1904763d8adace184db11fbc61ffbe48.jpg)](https://gyazo.com/1904763d8adace184db11fbc61ffbe48)
 
 ■ **新規作成ページ**<br>
 フォームを入力して`作成`をクリックすると、トップページに遷移します。

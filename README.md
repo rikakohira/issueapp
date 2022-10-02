@@ -23,7 +23,13 @@
 - heroku
 
 # 使い方
-■ **イシューの新規作成ページ**<br>
+■ **トップページ**
+登録済みのイシューを一覧表示します。<br>
+`新規作成`をクリックすると、イシューの新規作成ページに遷移します。
+
+[![Image from Gyazo](https://i.gyazo.com/c0f591c4d7952ba2f1a6524435a8056e.jpg)](https://gyazo.com/c0f591c4d7952ba2f1a6524435a8056e)
+
+■ **新規作成ページ**<br>
 フォームを入力して`作成`をクリックすると、トップページに遷移します。
 
 [![Image from Gyazo](https://i.gyazo.com/ef6ec762ec193b5d5e67bf7cb5c03830.png)](https://gyazo.com/ef6ec762ec193b5d5e67bf7cb5c03830)

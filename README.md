@@ -30,6 +30,6 @@ https://java-issueapp1997.herokuapp.com/
 [![Image from Gyazo](https://i.gyazo.com/1904763d8adace184db11fbc61ffbe48.jpg)](https://gyazo.com/1904763d8adace184db11fbc61ffbe48)
 
 ■ **新規作成ページ**<br>
-フォームを入力して`作成`をクリックすると、トップページに遷移します。
+フォームを入力して`作成`をクリックすると、新たにイシューが登録され、トップページに遷移します。
 
 [![Image from Gyazo](https://i.gyazo.com/ef6ec762ec193b5d5e67bf7cb5c03830.png)](https://gyazo.com/ef6ec762ec193b5d5e67bf7cb5c03830)

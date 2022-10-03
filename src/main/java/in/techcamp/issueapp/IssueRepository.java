@@ -16,5 +16,5 @@ public interface IssueRepository {
 
     @Select("select * from issues where id = #{id}")
     //findByIdメソッド
-    IssueEntity findByID(long id);
+    IssueEntity findById(long id);
 }

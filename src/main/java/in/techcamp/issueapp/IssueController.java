@@ -37,7 +37,7 @@ public class IssueController {
     //詳細画面
     @GetMapping("/issues/{id}")
     public String issueDetail(@PathVariable long id, Model model){
-        var issue = issueRepository.findID(id);
+        var issue = issueRepository.findById(id);
         model.addAttribute("issue", issue);
         return "detail";
     }

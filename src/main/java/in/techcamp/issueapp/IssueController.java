@@ -41,5 +41,13 @@ public class IssueController {
         model.addAttribute("issue", issue);
         return "detail";
     }
+
+    //編集機能
+    @PostMapping("/issues/{id}/update")
+    public String updateIssue(@PathVariable long id, IssueForm issueForm){
+        issueRepository.update(id, issueForm.getTitle(), issueForm.getContent(), issueForm.getPeriod(), issueForm.getImportance());
+        return "redirect:/";
+    }
 }
+
 

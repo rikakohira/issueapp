@@ -25,9 +25,17 @@ https://java-issueapp1997.herokuapp.com/
 # 使い方
 ■ **トップページ**<br>
 登録済みのイシューを一覧表示します。<br>
-`新規作成`をクリックすると、イシューの新規作成ページに遷移します。
 
-[![Image from Gyazo](https://i.gyazo.com/1904763d8adace184db11fbc61ffbe48.jpg)](https://gyazo.com/1904763d8adace184db11fbc61ffbe48)
+- 新規作成機能<br>
+`新規作成`をクリックすると、イシューの新規作成ページに遷移します。<br>
+
+- 編集機能<br>
+管理番号をクリックすると、編集ページへ遷移します。<br>
+
+- 削除機能<br>
+右端の`削除`をクリックすると、イシューが削除されます。
+
+[![Image from Gyazo](https://i.gyazo.com/67ae96a0905d5236c6b4991b44f57987.jpg)](https://gyazo.com/67ae96a0905d5236c6b4991b44f57987)
 
 ■ **新規作成ページ**<br>
 フォームを入力して`作成`をクリックすると、新たにイシューが登録され、トップページに遷移します。

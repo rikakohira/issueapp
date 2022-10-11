@@ -15,7 +15,6 @@ public class IssueController {
 
     //投稿機能
     @GetMapping("/issueForm")
-    //IssueForm()メソッド
     public String showIssueForm(@ModelAttribute("issueForm") IssueForm form){
 
         return "issueForm";

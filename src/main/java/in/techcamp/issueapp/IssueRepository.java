@@ -6,19 +6,22 @@ import java.util.List;
 
 @Mapper
 public interface IssueRepository {
+    //投稿機能
     @Insert("insert into issues (title, content, period, importance) values (#{title}, #{content}, #{period}, #{importance})")
     void insert(String title, String content, String period, char importance);
 
+    //一覧機能
     @Select("select * from issues")
     List<IssueEntity> findAll();
 
+    //編集機能
     @Select("select * from issues where id = #{id}")
-    //findByIdメソッド
     IssueEntity findById(long id);
 
     @Update("UPDATE issues SET title = #{title}, content = #{content}, period = #{period}, importance = #{importance} WHERE id =#{id}")
     void update(long id, String title, String content, String period, char importance);
 
+    //削除機能
     @Delete("delete from issues where id=#{id}")
     void deleteById(Long id);
 }

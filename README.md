@@ -14,7 +14,7 @@
 作成済みのイシューを削除する。
 
 # URL
-https://java-issueapp1997.herokuapp.com/
+※保留
  
 # 使用技術
 - Java 17.0.4.1
